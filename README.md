@@ -78,12 +78,3 @@ Make sure you have Node.js (v18.x or higher) and npm (or yarn/pnpm) installed.
 2.  **Open in your browser:**
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
-## 📧 Contact
-
-If you have any questions or feedback, feel free to reach out:
-
-*   **Ulisses Alves:** [https://ulissesalves.nexgate.ch/](https://ulissesalves.nexgate.ch/)
-*   **GitHub:** [https://github.com/Ulisses22/http-code-explorer](https://github.com/Ulisses22/http-code-explorer)
-
----
