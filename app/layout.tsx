@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(""),
+  metadataBase: new URL("https://ulisses22.github.io/http-code-explorer-v2/"),
   title: "HTTP Status Codes Explorer - Comprehensive Guide & Examples",
   description:
     "Explore, understand, and learn about all HTTP Status Codes (1XX, 2XX, 3XX, 4XX, 5XX) with detailed descriptions, code examples, and developer tips. A comprehensive guide for web developers and API enthusiasts.",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "HTTP Status Codes Explorer - Comprehensive Guide & Examples",
     description:
       "Explore, understand, and learn about all HTTP Status Codes (1XX, 2XX, 3XX, 4XX, 5XX) with detailed descriptions, code examples, and developer tips.",
-    url: "", 
+    url: "https://ulisses22.github.io/http-code-explorer-v2/",
     siteName: "HTTP Status Codes Explorer",
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     images: ["/placeholder.svg?height=675&width=1200"], // Imagem de placeholder
   },
   alternates: {
-    canonical: "",
+    canonical: "https://ulisses22.github.io/http-code-explorer-v2/",
   },
     generator: 'v0.dev'
 }
