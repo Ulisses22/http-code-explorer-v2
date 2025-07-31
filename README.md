@@ -1,4 +1,4 @@
-# HTTP Status Code Explorer
+# HTTP Status Code Explorer v2
 
 ![HTTP Status Code Explorer Banner](http-code-explorer-v2-logo.png "HTTP Status Code Explorer")
 
