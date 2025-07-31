@@ -3,17 +3,25 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 
+// Adicione um novo tipo para os dados do código de status
+interface StatusCodeData {
+  code: number
+  type: string
+  message: string
+  description: string
+}
+
 interface StatusCodeProps {
   code: number
   type: string
   message: string
   description: string
-  onCardClick: (statusCode: StatusCodeProps) => void // New prop
+  onCardClick: (statusCode: StatusCodeData) => void // Agora espera StatusCodeData
 }
 
 export function StatusCard({ code, type, message, description, onCardClick }: StatusCodeProps) {
   const handleClick = () => {
-    onCardClick({ code, type, message, description }) // Call the prop function
+    onCardClick({ code, type, message, description }) // Passando apenas os dados do status
   }
 
   const getBgColorClass = (type: string) => {
