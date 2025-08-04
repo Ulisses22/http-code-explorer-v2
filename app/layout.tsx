@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "HTTP Status Codes Explorer - Comprehensive Guide & Examples",
     description:
       "Explore, understand, and learn about all HTTP Status Codes (1XX, 2XX, 3XX, 4XX, 5XX) with detailed descriptions, code examples, and developer tips.",
-    images: ["/placeholder.svg?height=675&width=1200"], // Imagem de placeholder
+    images: ["/placeholder.svg?height=675&width=1200"],
   },
   alternates: {
     canonical: "https://ulisses22.github.io/http-code-explorer-v2/",
