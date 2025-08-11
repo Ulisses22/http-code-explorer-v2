@@ -3,7 +3,7 @@
 fetch("https://ulissesalves.nexgate.ch/counter.php")
   .then(response => response.json())
   .then(data => {
-    console.log(`Visitas: ${data.visits}`);
+    return
   })
   .catch(error => console.error("Erro ao contar visitas:", error));
 </script>
